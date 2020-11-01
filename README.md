@@ -1,6 +1,6 @@
 [![Packagist](https://img.shields.io/packagist/v/alancting/php-microsoft-jwt?style=for-the-badge)](https://packagist.org/packages/alancting/php-microsoft-jwt)
 [![GitHub](https://img.shields.io/github/v/release/alancting/php-microsoft-jwt?label=GitHub&style=for-the-badge)](https://github.com/alancting/php-microsoft-jwt)
-[![Test](https://img.shields.io/github/workflow/status/alancting/php-microsoft-jwt/PHP%20Composer?label=TEST&style=for-the-badge)](https://github.com/alancting/php-microsoft-jwt)
+[![Test](https://img.shields.io/github/workflow/status/alancting/php-microsoft-jwt/PHP%20Test?label=TEST&style=for-the-badge)](https://github.com/alancting/php-microsoft-jwt)
 [![Coverage Status](https://img.shields.io/coveralls/github/alancting/php-microsoft-jwt/master?style=for-the-badge)](https://coveralls.io/github/alancting/php-microsoft-jwt?branch=master)
 [![GitHub license](https://img.shields.io/github/license/alancting/php-microsoft-jwt?color=blue&style=for-the-badge)](https://github.com/alancting/php-microsoft-jwt/blob/master/LICENCE)  
 [![firebase/php-jwt Version](https://img.shields.io/static/v1?label=firebase%2Fphp-jwt&message=5.2.0&color=blue&style=for-the-badge)](https://github.com/firebase/php-jwt/tree/v5.2.0)
