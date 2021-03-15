@@ -170,7 +170,6 @@ abstract class MicrosoftConfiguration
             curl_close($ch);
         }
 
-        $result = @file_get_contents($targetUri);
         if ($result === false) {
             throw new \Exception('Configuration not found');
         }
