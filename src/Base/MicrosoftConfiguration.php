@@ -74,8 +74,16 @@ abstract class MicrosoftConfiguration
                     throw new UnexpectedValueException('Missing file path');
                 }
                 
+                $lifetime=self::CACHE_LIFETIME;
+                if (isset($options['cache']['lifetime'])) {
+                    if(!is_int($options['cache']['lifetime']) || $options['cache']['lifetime'] < 0) {
+                        throw new UnexpectedValueException('Invalid cache lifetime');
+                    }
+                    $lifetime= $options['cache']['lifetime'];
+                }
+
                 $directory = $options['cache']['path'];
-                $this->cache = new FilesystemAdapter(self::CACHE_NAMESPACE, self::CACHE_LIFETIME, $directory);
+                $this->cache = new FilesystemAdapter(self::CACHE_NAMESPACE, $lifetime, $directory);
             }
 
             if ($options['cache']['type'] === 'redis') {
